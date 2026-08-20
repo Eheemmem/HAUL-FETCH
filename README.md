@@ -126,29 +126,6 @@ post is private, you'll get a clear error, not a workaround.
 
 ## Architecture
 
-```
-haul/
-├── cli.py                  # argparse + terminal output only
-├── config.py                # optional ~/.config/haul/config.toml
-├── core/
-│   ├── detector.py          # URL validation + platform routing
-│   ├── registry.py          # maps a URL to the right extractor
-│   ├── extractor.py         # MediaInfo / MediaFormat / Extractor
-│   ├── selector.py          # quality ranking — never upscales
-│   ├── downloader.py        # streaming, resume, atomic writes, FFmpeg
-│   ├── metadata.py          # optional JSON sidecar writer
-│   ├── pipeline.py          # wires the above together per URL
-│   └── errors.py            # one exception hierarchy, human-readable
-├── extractors/
-│   ├── _shared.py           # yt-dlp adapter -> HAUL's MediaInfo model
-│   ├── instagram.py, youtube.py, reddit.py,
-│   ├── pinterest.py, tiktok.py, facebook.py
-└── utils/
-    ├── filenames.py          # sanitization + templating, no path traversal
-    ├── network.py             # shared requests.Session config
-    └── progress.py            # rich-based terminal UI
-```
-
 Every layer only knows about the layer below it: extractors never touch the
 filesystem, the selector never touches the network, and the downloader never
 knows what platform a URL came from. Adding a platform means writing one
