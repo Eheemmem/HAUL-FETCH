@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# HAUL's own output and config
+downloads/
+*.part
+.config/haul/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

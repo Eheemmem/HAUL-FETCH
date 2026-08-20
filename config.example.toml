@@ -1,0 +1,8 @@
+# Copy this file to ~/.config/haul/config.toml and adjust as needed.
+# HAUL works perfectly with no config file at all — every value here
+# is optional, and any CLI flag you pass always wins over this file.
+
+output = "~/Downloads/haul"
+quality = "best"
+metadata = false
+concurrency = 3

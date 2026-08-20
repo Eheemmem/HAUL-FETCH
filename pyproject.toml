@@ -1,0 +1,37 @@
+[project]
+name = "haul-cli"
+version = "0.1.0"
+description = "Privacy-first CLI tool for downloading publicly accessible social media at the best available quality."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["cli", "downloader", "media", "video", "instagram", "youtube", "reddit", "tiktok"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+    "requests>=2.31",
+    "rich>=13.7",
+    "yt-dlp>=2024.8.6",
+    "tomli>=2.0; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+haul = "haul.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["haul*"]
