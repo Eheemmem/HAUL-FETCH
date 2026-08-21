@@ -1,9 +1,5 @@
-<p style="text-align: center;">
-
-# HAUL
+#  HAUL
   
-</p>
-
 **Paste a URL. Get the best available media. Nothing else.**
 
 HAUL is a privacy-first CLI tool for downloading publicly accessible media
