@@ -1,4 +1,8 @@
+<p style="text-align: center;">
+
 # HAUL
+  
+</p>
 
 **Paste a URL. Get the best available media. Nothing else.**
 
